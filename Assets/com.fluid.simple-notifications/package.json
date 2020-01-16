@@ -1,0 +1,7 @@
+{
+  "name": "com.fluid.simple-notifications",
+  "version": "0.0.0",
+  "displayName": "Simple Notifications",
+  "description": "A simple API for displaying notifications to a user during gameplay",
+  "unity": ""
+}
