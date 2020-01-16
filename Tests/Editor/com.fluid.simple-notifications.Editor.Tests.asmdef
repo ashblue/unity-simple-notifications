@@ -1,0 +1,19 @@
+{
+    "name": "com.fluid.simple-notifications.Editor.Tests",
+    "references": [
+        "com.fluid.simple-notifications",
+        "com.fluid.simple-notifications.Editor"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

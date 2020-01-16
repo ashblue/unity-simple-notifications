@@ -1,0 +1,12 @@
+{
+    "name": "com.fluid.simple-notifications.Editor",
+    "references": [
+        "com.fluid.simple-notifications"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
