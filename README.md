@@ -1,6 +1,14 @@
 # Simple Notifications
 
-A simple API for displaying notifications to a user during gameplay
+A simple API for displaying notifications to a user during gameplay.
+
+## Quick Start
+
+Simple notifications provides a simple API to generate your notification messages in a manner similar to Skyrim. Just call the API as so when setup from any script.
+
+```c#
+NotificationManager.Instance.AddLine(_message);
+```
 
 ## Installation
 
@@ -22,6 +30,15 @@ Simple Notifications is used through [Unity's Package Manager](https://docs.unit
   }
 }
 ```
+
+After the package is installed you need to do a few extra things so you have a canvas to reference.
+
+1. Export the `Assets/Examples/Prefabs` and then import them into your project. 
+     1. If you don't want to do that for a custom setup you'll need to do the following instead
+     1. Create a new canvas add a `NotificationController` script to it (fill in fields). Generate a prefab in the project from it
+     1. Create a new canvas line with a `LineController` script (fill in fields). Generate a prefab in the project from it. Add it to the `NotificationController` prefab we just created
+ 1. Create a new asset in your project under `Resources` with the right click menu `Create/Fluid/Simple Notifications/Settings`
+     1. Add the canvas to the settings file
 
 ## Releases
 
