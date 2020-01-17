@@ -3,5 +3,9 @@
   "version": "0.0.0",
   "displayName": "Simple Notifications",
   "description": "A simple API for displaying notifications to a user during gameplay",
-  "unity": ""
+  "unity": "",
+  "dependencies": {
+    "com.fluid.simple-singleton": "1.0.0",
+    "com.fluid.simple-settings": "1.0.0"
+  }
 }
